@@ -1,12 +1,14 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-.banner{
+body{
   width: 1500px;
   height: 1000px;
   background-image: linear-gradient(rgba(0,0,0,0.75),rgb(0,0,0,0.75)),url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.banner{
+/*   width: 1500px;
+  height: 1000px;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgb(0,0,0,0.75)),url(background.jpg); */
   background-size: cover;
   background-position: center;
 }
