@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style_seat.css">
+    <script src="script.js" defer></script>
+    <title>CLUBTIVITY_seatavability</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class = "head">
+            <!-- <div class = "nav">
+                <input type="text" id="name-field" placeholder="Name...">
+                <div class="button" onclick="updateName()">
+                    <p class="my-0"><a href = "index_seat.html">submit</a></p>
+                </div>
+            </div> -->
+            <div class = "hh">
+                <h1 class = "headText">CLUBTIVITY Represents " Trick or Drink Party "</h1>
+                <!-- <input type="text" id="name-field" placeholder="">
+                <div class="button" onclick="updateName()">
+                </div> -->
+                <!-- <li><a href="index3.html">link</a></li> -->
+            </div>
+        </div>
+        <div class = "content">
+            <div class = "seatGroup">
+                <div class="GroupT">
+                    <div class = "boxT"></div>
+                    <div class = "T">
+                        <!-- <p class = "textType" >T table</p> -->
+                        <div onclick="updateColorT1()" id="toggle-buttonT1">
+                            <p class = "text">T1</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT2()" id="toggle-buttonT2">
+                            <p class = "text">T2</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT3()" id="toggle-buttonT3">
+                            <p class = "text">T3</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT4()" id="toggle-buttonT4">
+                            <p class = "text">T4</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT5()" id="toggle-buttonT5">
+                            <p class = "text">T5</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT6()" id="toggle-buttonT6">
+                            <p class = "text">T6</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT7()" id="toggle-buttonT7">
+                            <p class = "text">T7</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT8()" id="toggle-buttonT8">
+                            <p class = "text">T8</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT9()" id="toggle-buttonT9">
+                            <p class = "text">T9</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorT10()" id="toggle-buttonT10">
+                            <p class = "text">T10</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                    </div>
+                </div>
+                <div class = "GroupSofa">
+                    <div class = "boxB"></div>
+                    <div class = "B">
+                        <div onclick="updateColorB1()" id="toggle-buttonB1">
+                            <p class = "text">B1</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorB2()" id="toggle-buttonB2">
+                            <p class = "text">B2</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorB3()" id="toggle-buttonB3">
+                            <p class = "text">B3</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorB4()" id="toggle-buttonB4">
+                            <p class = "text">B4</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorB5()" id="toggle-buttonB5">
+                            <p class = "text">B5</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorB6()" id="toggle-buttonB6">
+                            <p class = "text">B6</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorB7()" id="toggle-buttonB7">
+                            <p class = "text">B7</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                    </div>
+                </div>
+                <div class = "GroupVVIP">
+                    <div class = "boxVVIP"></div>
+                    <div class = "VVIP">
+                        <div onclick="updateColorVVIP1()" id="toggle-buttonVVIP1">
+                            <p class = "text">V1</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorVVIP2()" id="toggle-buttonVVIP2">
+                            <p class = "text">V2</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorVVIP3()" id="toggle-buttonVVIP3">
+                            <p class = "text">V3</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                    </div>
+                </div>
+                <div class = "GroupRegular">
+                    <div class = "stage">
+                        <h1 class = "textStage"></h1>
+                    </div>
+                    <div class = "regular">
+                        <div class = "rowR">
+                            <div onclick="updateColorTU25()" id="toggle-buttonTU25">
+                                <p class = "text">R25</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU26()" id="toggle-buttonCU26">
+                                <p class = "text">R26</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU27()" id="toggle-buttonTU27">
+                                <p class = "text">R27</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU28()" id="toggle-buttonCU28">
+                                <p class = "text">R28</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU29()" id="toggle-buttonTU29">
+                                <p class = "text">R29</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU30()" id="toggle-buttonCU30">
+                                <p class = "text">R30</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU31()" id="toggle-buttonTU31">
+                                <p class = "text">R31</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCUE3()" id="toggle-buttonCUE3">
+                                <p class = "text">E3</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                        </div>
+                        <div class = "rowR">
+                            <div onclick="updateColorCU18()" id="toggle-buttonCU18">
+                                <p class = "text">R18</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU19()" id="toggle-buttonTU19">
+                                <p class = "text">R19</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU20()" id="toggle-buttonCU20">
+                                <p class = "text">R20</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU21()" id="toggle-buttonTU21">
+                                <p class = "text">R21</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU22()" id="toggle-buttonCU22">
+                                <p class = "text">R22</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU23()" id="toggle-buttonTU23">
+                                <p class = "text">R23</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU24()" id="toggle-buttonCU24">
+                                <p class = "text">R24</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTUE4()" id="toggle-buttonTUE4">
+                                <p class = "text">E4</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                        </div>
+                        <div class = "rowR">
+                            <div onclick="updateColorTU12()" id="toggle-buttonTU12">
+                                <p class = "text">R12</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU13()" id="toggle-buttonCU13">
+                                <p class = "text">R13</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU14()" id="toggle-buttonTU14">
+                                <p class = "text">R14</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU15()" id="toggle-buttonCU15">
+                                <p class = "text">R15</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU16()" id="toggle-buttonTU16">
+                                <p class = "text">R16</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU17()" id="toggle-buttonCU17">
+                                <p class = "text">R17</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTUE1()" id="toggle-buttonTUE1">
+                                <p class = "text">E1</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCUE5()" id="toggle-buttonCUE5">
+                                <p class = "text">E5</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                        </div>
+                        <div class = "rowR">
+                            <div onclick="updateColorCU6()" id="toggle-buttonCU6">
+                                <p class = "text">R6</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU7()" id="toggle-buttonTU7">
+                                <p class = "text">R7</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU8()" id="toggle-buttonCU8">
+                                <p class = "text">R8</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU9()" id="toggle-buttonTU9">
+                                <p class = "text">R9</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU10()" id="toggle-buttonCU10">
+                                <p class = "text">R10</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU11()" id="toggle-buttonTU11">
+                                <p class = "text">R11</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCUE2()" id="toggle-buttonCUE2">
+                                <p class = "text">E2</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColor()" id="toggle-button">
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                        </div>
+                        <div class = "rowR">
+                            <div onclick="updateColorTU1()" id="toggle-buttonTU1">
+                                <p class = "text">R1</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU2()" id="toggle-buttonCU2">
+                                <p class = "text">R2</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU3()" id="toggle-buttonTU3">
+                                <p class = "text">R3</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorCU4()" id="toggle-buttonCU4">
+                                <p class = "text">R4</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColorTU5()" id="toggle-buttonTU5">
+                                <p class = "text">R5</p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColor()" id="toggle-button">
+                                <p class = "text"></p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColor()" id="toggle-button">
+                                <p class = "text"></p>
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                            <div onclick="updateColor()" id="toggle-button">
+                            </div>
+                            <p id="errorText" style="color:red;"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "GroupVIP">
+                    <div class = "boxVIP"></div>
+                    <div class = "VIP">
+                        <div onclick="updateColorC1()" id="toggle-buttonC1">
+                            <p class = "text">C1</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorC2()" id="toggle-buttonC2">
+                            <p class = "text">C2</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorC3()" id="toggle-buttonC3">
+                            <p class = "text">C3</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                        <div onclick="updateColorC4()" id="toggle-buttonC4">
+                            <p class = "text">C4</p>
+                        </div>
+                        <p id="errorText" style="color:red;"></p>
+                    </div>
+                </div>
+            </div>
+            <div class = "detailGroup">
+                <h1 class = "description">Description</h1>
+                <div class = "detailT">
+                    <p class = "detailText">=================================</p>
+                    <p class = "detailText">T Zone ( Regular (T) )</p>
+                    <p class = "detailText">T 1-10 : 5000 THB</p>
+                    <p class = "detailText">(1) Gold Label or Hennessy VS or Grey Goose or Singleton 12 Yo</p>
+                    <!-- <p class = "detailText">Grey Goose or Singleton 12 Yo</p> -->
+                    <p class = "detailText">+ 5 Mixers + 1 Ice + 4 Tickets == Maximum 6 people</p>
+                    <!-- <p class = "detailText">Maximum 6 people</p> -->
+                    <p class = "detailText">=================================</p>
+                </div>
+                <div class = "detailB">
+                    <p class = "detailText">B Zone ( Sofa Bar )</p>
+                    <p class = "detailText">B1 : 7500 THB</p>
+                    <p class = "detailText">(1) Gold Label or Hennessy VS or Grey Goose or Singleton 12 Yo</p>
+                    <!-- <p class = "detailText">Grey Goose or Singleton 12 Yo</p> -->
+                    <p class = "detailText">+ 5 Mixers + 1 Ice + 4 Tickets == B1 : Maximum 15 people</p>
+                    <!-- <p class = "detailText">B1 : Maximum 15 people</p> -->
+                    <p class = "detailText">___.____.____.____.____.____.___</p>
+                    <p class = "detailText">B 2-7 : 5000 THB</p>
+                    <p class = "detailText">(1) Gold Label or Hennessy VS or Grey Goose or Singleton 12 Yo</p>
+                    <!-- <p class = "detailText">Grey Goose or Singleton 12 Yo</p> -->
+                    <p class = "detailText">+ 5 Mixers + 1 Ice + 4 Tickets == B 2-7 : Maximum 8 people</p>
+                    <!-- <p class = "detailText">B 2-7 : Maximum 8 people</p> -->
+                    <p class = "detailText">=================================</p>
+                </div>
+                <div class = "detailV">
+                    <p class = "detailText">V Zone ( VVIP )</p>
+                    <p class = "detailText">V 1-10 : 14500 THB</p>
+                    <p class = "detailText">(3) Gold Label or Hennessy VS or Grey Goose or Singleton 12 Yo</p>
+                    <!-- <p class = "detailText">Grey Goose or Singleton 12 Yo</p> -->
+                    <p class = "detailText">+ 10 Mixers + 2 Ice + 10 Tickets == Maximum 20 people</p>
+                    <!-- <p class = "detailText">Maximum 20 people</p> -->
+                    <p class = "detailText">=================================</p>
+                </div>
+                <div class = "detailR">
+                    <p class = "detailText">R Zone ( Regular (T) )</p>
+                    <p class = "detailText">R 1-33 AND E 1-5 : 5000 THB</p>
+                    <p class = "detailText">(1) Gold Label or Hennessy VS or Grey Goose or Singleton 12 Yo</p>
+                    <!-- <p class = "detailText">Grey Goose or Singleton 12 Yo</p> -->
+                    <p class = "detailText">+ 5 Mixers + 1 Ice + 4 Tickets == Maximum 10 people</p>
+                    <!-- <p class = "detailText">Maximum 10 people</p> -->
+                    <p class = "detailText">=================================</p>
+                </div>
+                <div class = "detailC">
+                    <p class = "detailText">R Zone ( Regular (T) )</p>
+                    <p class = "detailText">C 1-4 : 9600 THB</p>
+                    <p class = "detailText">(2) Gold Label or Hennessy VS or Grey Goose or Singleton 12 Yo</p>
+                    <!-- <p class = "detailText">Grey Goose or Singleton 12 Yo</p> -->
+                    <p class = "detailText">+ 7 Mixers + 1 Ice + 8 Tickets == Maximum 15 people</p>
+                    <!-- <p class = "detailText">Maximum 15 people</p> -->
+                    <p class = "detailText">=================================</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div onclick="updateColor()" id="toggle-button">
+        </div>
+        <p id="errorText" style="color:red;"></p> -->
+        <div class = "logoMilley">
+            <img src="logo.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

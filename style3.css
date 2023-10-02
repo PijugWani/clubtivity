@@ -1,0 +1,81 @@
+.m-auto {
+    margin: auto;
+}
+
+body {
+    color: #101010;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-field {
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px;
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: palevioletred;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-label {
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.toggle-checkbox:checked+.toggle-label {
+    background-color: pink;
+}
+
+#toggle-button {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+#toggle-button.checked {
+    background-color: red;
+}
