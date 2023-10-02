@@ -21,7 +21,7 @@
     // birthday = dayMonth + nextYear;
     // }
     // //end
-    var birthday = new Date("Oct 3, 2023 5:11:00").getTime();
+    var birthday = new Date("Oct 3, 2023 5:15:00").getTime();
 
     const countDown = new Date(birthday).getTime(),
         x = setInterval(function() {
