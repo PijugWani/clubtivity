@@ -1,5 +1,4 @@
 
-
 .banner{
     width: 1500px;
     height: 1000px;
@@ -49,7 +48,7 @@
     position: relative;
     left: 7%;
     right: 12.5%;
-    top: 70px;
+    top: 100px;
     bottom: 100px;
     display: flex;
     align-items: center;
@@ -71,7 +70,7 @@
     position: relative;
     left: 7%;
     right: 12.5%;
-    top: 70px;
+    top: 100px;
     bottom: 100px;
     display: flex;
     align-items: center;
@@ -93,7 +92,7 @@
     position: relative;
     left: 7%;
     right: 12.5%;
-    top: 70px;
+    top: 100px;
     bottom: 100px;
     display: flex;
     align-items: center;
@@ -108,18 +107,17 @@
     display: flex;
 }
 .GroupRegular{
-    height: 56%;
+    height: 320px;
     width: 100%;
     border: 2px solid white;
     border-radius: 1%;
     position: relative;
     left: 7%;
     right: 12.5%;
-    top: 70px;
+    top: 100px;
     bottom: 100px;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    text-align: center;
     display: flex;
 }
 .rowR{
@@ -128,14 +126,14 @@
 }
 
 .regular{
-    height: 56%;
+    height: 50%;
     width: 100%;
     /* border: 2px solid white; */
     border-radius: 1%;
     position: relative;
     left: 7%;
     right: 2px;
-    top: 3.25px;
+    top: 10px;
     bottom: 100px;
 }
 
@@ -165,7 +163,7 @@
     position: relative;
     left: 7%;
     right: 12.5%;
-    top: 70px;
+    top: 100px;
     bottom: 100px;
     display: flex;
     align-items: center;
@@ -833,189 +831,6 @@
     transition: all 0.2s;
 }
 
-
-#toggle-buttonCU2.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU4.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU6.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU8.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU10.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU13.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU15.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU17.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU18.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU20.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU22.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU24.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU26.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU28.checked {
-    background-color: #848884;
-}
-#toggle-buttonCU30.checked {
-    background-color: #848884;
-}
-#toggle-buttonCUE2.checked {
-    background-color: #848884;
-}
-#toggle-buttonCUE3.checked {
-    background-color: #848884;
-}
-#toggle-buttonCUE5.checked {
-    background-color: #848884;
-}
-
-#toggle-buttonTU1.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU3.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU5.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU7.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU9.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU11.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU12.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU14.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU16.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU19.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU21.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU23.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU25.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU27.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU29.checked {
-    background-color: #848884;
-}
-#toggle-buttonTU31.checked {
-    background-color: #848884;
-}
-#toggle-buttonTUE1.checked {
-    background-color: #848884;
-}
-#toggle-buttonTUE4.checked {
-    background-color: #848884;
-}
-
-#toggle-buttonT1.checked {
-    background-color: #848884;
-}
-#toggle-buttonT2.checked {
-    background-color: #848884;
-}
-#toggle-buttonT3.checked {
-    background-color: #848884;
-}
-#toggle-buttonT4.checked {
-    background-color: #848884;
-}
-#toggle-buttonT5.checked {
-    background-color: #848884;
-}
-#toggle-buttonT6.checked {
-    background-color: #848884;
-}
-#toggle-buttonT7.checked {
-    background-color: #848884;
-}
-#toggle-buttonT8.banner {
-    background-color: #848884;
-}
-#toggle-buttonT9.checked {
-    background-color: #848884;
-}
-#toggle-buttonT10.checked {
-    background-color: #848884;
-}
-#toggle-buttonVVIP1.checked {
-    background-color: #848884;
-}
-#toggle-buttonVVIP2.checked {
-    background-color: #848884;
-}
-#toggle-buttonVVIP3.checked {
-    background-color: #848884;
-}
-#toggle-buttonB1.checked {
-    background-color: #848884;
-}
-#toggle-buttonB2.checked {
-    background-color: #848884;
-}
-#toggle-buttonB3.checked {
-    background-color: #848884;
-}
-#toggle-buttonB4.checked {
-    background-color: #848884;
-}
-#toggle-buttonB5.checked {
-    background-color: #848884;
-}
-#toggle-buttonB6.checked {
-    background-color: #848884;
-}
-#toggle-buttonB7.checked {
-    background-color: #848884;
-}
-#toggle-buttonC1.checked {
-    background-color: #848884;
-}
-#toggle-buttonC2.checked {
-    background-color: #848884;
-}
-#toggle-buttonC3.checked {
-    background-color: #848884;
-}
-#toggle-buttonC4.checked {
-    background-color: #848884;
-}
 /* ---------detail Group-------- */
 
 .detailGroup{
@@ -1024,21 +839,21 @@
     border: 2px solid white;
     border-radius: 1%;
     position: relative;
-    top: 70px;
+    top: 100px;
     left: 70px;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 .description{
-    font-family:'Courier New', Courier, monospace ;
+    font-family: "Gill Sans", sans-serif;
     font-size: 24px;
     font-weight: 100;
     color: azure;
 }
 .detailText{
-    font :Garet-Book ;
-    font-size: 10px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 12.5px;
     font-weight: 100;
     color: azure;
 }
@@ -1054,7 +869,7 @@
     width: 200px;
     justify-content: center;
     justify-items: center;
-    top: 690px;
+    top: 860px;
     left: 615px;
     align-content: center;
     position: absolute;
@@ -1073,7 +888,7 @@
     bottom: 100px;
     justify-content: center;
     justify-items: center;
-    top: 1px;
+    top: 10px;
     bottom: 5px;
     left: 300px;
     align-content: center;
