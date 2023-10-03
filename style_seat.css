@@ -873,8 +873,8 @@
     margin-bottom: 15px;
     height: 40px;
     width: 40px;
-    background-color: #F5F5F5;
-/*     background-color: #848884; */
+/*     background-color: #F5F5F5; */
+    background-color: #848884;
     border-radius: 100%;
     transition: all 0.2s;
 }
