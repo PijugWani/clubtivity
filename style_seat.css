@@ -1,13 +1,9 @@
-
-.banner{
-    width: 1200px;
-    height: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgb(0,0,0,0.75)),url(background.jpg);
-    background-size: cover;
-    background-position: center;
-    /* align-items: center;
-    justify-content: center;
-    height: 100vh; */
+body{
+  width: 1500px;
+  height: 1000px;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgb(0,0,0,0.75)),url(background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* --------botton---------- */
