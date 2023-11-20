@@ -916,7 +916,7 @@ body{
 /* -------- Head Text ---------- */
 .head {
     height: 10px;
-    width: 1000%;
+    width: 100%;
     bottom: 100px;
     justify-content: center;
     justify-items: center;
